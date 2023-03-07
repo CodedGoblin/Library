@@ -1,0 +1,39 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 2rem;
+    display: grid;
+    grid-template-rows: .1fr 1.9fr;
+    gap: 1rem;
+}
+
+.new{
+    justify-self: center;
+}
+
+form{
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+table{
+    width: 100%;
+    border: 2px black solid;
+}
+
+thead{
+    background-color: azure;
+}
+
+td{
+    text-align: center;
+}
+
+
+.hide{
+    display: none;
+}

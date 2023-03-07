@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Library</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="new">
+        <button>NEW BOOK</button>
+    </div>
+    <div class="content">
+        <table>
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Published</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>       
+        
+        <form class="hide" action="">
+            <input type="text" name="title" id="title" placeholder="title" required>
+            <input type="text" name="author" id="author" placeholder="author" required>
+            <input type="text" name="year" id="year" placeholder="year" required>
+            <input type="text" name="status" id="status" placeholder="status" required>
+            <button>Save</button>
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

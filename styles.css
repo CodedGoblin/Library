@@ -37,3 +37,7 @@ td{
 .hide{
     display: none;
 }
+
+th button{
+    margin-left: 5px;
+}
